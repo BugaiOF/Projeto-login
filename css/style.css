@@ -26,7 +26,7 @@ main {
     width: 100vw;
 }
 
-.login {
+section#login {
     background-color: rgb(255, 255, 255);
     width: 250px;
     height: 500px;
@@ -41,7 +41,7 @@ main {
     transition-timing-function: ease;
 }
 
-.login > .image {
+section#login > div#image {
     display: block;
     background: #603D7F url(../images/pexels-hatice-noğman-7948965.jpg) no-repeat;
     background-size: cover;
@@ -50,7 +50,7 @@ main {
 
 } 
 
-.login > .formulario {
+section#login > div#formlario  {
     padding: 10px;
     display: block;
 }
