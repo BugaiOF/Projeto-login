@@ -51,4 +51,12 @@ Grandes telas: acima de 1200px
         float: left;
         width: 50%;
     }
+
+    div#formlario  > h1 {
+
+    }
+    
+    div#formlario > p {
+        font-size: 1.2em;
+    }
 }
