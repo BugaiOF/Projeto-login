@@ -27,7 +27,7 @@ main {
 }
 
 section#login {
-    background-color: rgb(255, 255, 255);
+    background-color: lightgray;
     width: 250px;
     height: 520px;
     border-radius: 20px;
@@ -62,6 +62,7 @@ div#formulario  > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
+    text-align: center;
 }
 
 form > .campo {
@@ -70,12 +71,34 @@ form > .campo {
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
+
+div.campo > input {
+    background-color: #9422f8;
+    font-size: 1em;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    width: calc(100% - 45px);
+    transform: translateY(-10px);
+}
+
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 form > input[type=submit] {
